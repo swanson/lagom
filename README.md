@@ -2,7 +2,7 @@
 
 > Lagom is a Swedish word with no direct English equivalent, meaning "just the right amount"
 
-A Jekyll blog theme with just the right amount of style. Extracted lovingly from 
+A [Jekyll][j] blog theme with just the right amount of style. Extracted lovingly from 
 [http://mdswanson.com][mds] for your enjoyment
 
 * Responsive, based on Skeleton
@@ -57,6 +57,7 @@ me or using a disclaimer or anything silly like that.
 I'd love to hear from you at [@_swanson][twitter]. Feel free to open issues if you
 run into trouble.
 
+[j]: http://jekyllrb.com/
 [mds]: http://mdswanson.com
 [fork]: https://github.com/swanson/lagom/fork
 [config]: https://github.com/swanson/lagom/blob/master/_config.yml
