@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.theme.name }} - {{ page.title }}</title>
+  <meta name="author" content="{{ site.theme.name }}" />
+  <meta name="description" content="The blog of {{ site.theme.name }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.theme.name }}" href="{{site.url}}/atom.xml" />
+
+  <link rel="stylesheet" href="/assets/css/all.css">
+<!--[if IE 7]>
+  <link rel="stylesheet" href="/assets/css/font-awesome-ie7.min.css">
+<![endif]-->
+</head>
+<body>
+  <div class="container">
+    <div class="four columns sidebar">
+      {% include sidebar.html %}
+    </div>
+
+    <div class="eleven columns content">
+      {{ content }}
+    
+      <div class="footer">
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+
+{% include analytics.html %}
+</body>
+</html>
