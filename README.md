@@ -1,8 +1,8 @@
 # Lagom
 
-> Lagom is a Swedish word with no direct English equivalent, meaning "just the right amount"
+> #### *Lagom* is a Swedish word with no direct English equivalent, meaning "just the right amount"
 
-A [Jekyll][j] blog theme with just the right amount of style. Extracted lovingly from 
+Lagom, a [Jekyll][j] blog theme with just the right amount of style. Extracted lovingly from 
 [http://mdswanson.com][mds] for your enjoyment
 
 * Responsive, based on [Skeleton][skeleton]
