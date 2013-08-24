@@ -5,9 +5,9 @@
 A [Jekyll][j] blog theme with just the right amount of style. Extracted lovingly from 
 [http://mdswanson.com][mds] for your enjoyment
 
-* Responsive, based on Skeleton
-* Uses Font Awesome for icons
-* Open Sans font from Google web fonts
+* Responsive, based on [Skeleton][skeleton]
+* [Font Awesome][font-awesome] for icons
+* Open Sans from [Google web fonts][gfonts]
 * Built-in Atom RSS feed
 
 ## Action Shots
@@ -59,6 +59,9 @@ run into trouble.
 
 [j]: http://jekyllrb.com/
 [mds]: http://mdswanson.com
+[skeleton]: http://www.getskeleton.com/
+[font-awesome]: http://fortawesome.github.io/Font-Awesome/
+[gfonts]: http://www.google.com/fonts/specimen/Open+Sans
 [fork]: https://github.com/swanson/lagom/fork
 [config]: https://github.com/swanson/lagom/blob/master/_config.yml
 [cname]: https://github.com/swanson/lagom/blob/master/CNAME
