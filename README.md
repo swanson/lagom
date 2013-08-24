@@ -56,7 +56,7 @@ me or using a disclaimer or anything silly like that.
 
 ## Contact
 I'd love to hear from you at [@_swanson][twitter]. Feel free to open issues if you
-run into trouble.
+run into trouble or have suggestions. Pull Requests always welcome.
 
 [j]: http://jekyllrb.com/
 [mds]: http://mdswanson.com
