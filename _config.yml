@@ -17,6 +17,7 @@ theme:
 
   # "Hi, I'm _______"
   name: Matt Swanson
+  email: test@example.com
   tagline: "weak opinions, strongly held"
 
   # Google Analytics key, leave blank to ignore
