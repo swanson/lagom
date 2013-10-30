@@ -209,13 +209,12 @@ nav hr {
   color: {{ site.theme.highlight_color }};
 }
 
-span.icon-hn {
+i.fa-hn {
   font-family: "open sans", sans-serif;
-  line-height: 20px;
   text-align: center;
-  font-weight: bold;
+  font-size: 18px !important;
   position: relative;
-  left: 7px;
+  color: white;
 }
 
 .home {
@@ -234,7 +233,7 @@ span.icon-hn {
   text-align: center;
 }
 
-.footnotes { 
+.footnotes {
   font-size: 14px;
   font-style: italic;
 }
@@ -248,8 +247,8 @@ span.icon-hn {
 }
 
 .caption {
-  margin: 0 auto; 
-  text-align: center; 
-  font-size: smaller; 
+  margin: 0 auto;
+  text-align: center;
+  font-size: smaller;
   padding-bottom: 10px
 }
