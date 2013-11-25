@@ -1,0 +1,11 @@
+---
+---
+[
+{% for item in site.posts %}
+{"date": {{ item.date | jsonify }},
+"categories": {{ item.categories | jsonify }},
+"tags": {{ item.tags | jsonify}},
+"title": {{ item.title | jsonify}},
+"url": {{ item.url | jsonify}}},
+{% endfor %}
+false]
