@@ -16,7 +16,9 @@ chia, **wayfarers** swag raw denim hashtag biodiesel occupy gastropub!
 ---
 
 # It's all in the game.
+
 ## You come at the king, you best not miss.
+
 ### Be subtle with it, man. You know what subtle means?
 
 VHS post-ironic cred **bespoke** banjo. Yr wayfarers literally gentrify, flexitarian fap 
