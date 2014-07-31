@@ -18,9 +18,9 @@ Extracted lovingly from [http://mdswanson.com][mds] for your enjoyment!
 
 ## Installation
 
-- Install Jekyll: `gem install jekyll`
 - [Fork this repository][fork]
 - Clone it: `git clone https://github.com/YOUR-USER/lagom`
+- Install the [GitHub Pages gem][pages] (includes Jekyll): `bundle install`
 - Run the jekyll server: `jekyll serve`
 
 You should have a server up and running locally at <http://localhost:4000>.
@@ -28,7 +28,7 @@ You should have a server up and running locally at <http://localhost:4000>.
 ## Customization
 
 Next you'll want to change a few things. Most of them can be changed directly in
-[_config.yml][config]. That's where you can add your social links, change the accent
+[theme.yml][config]. That's where you can add your social links, change the accent
 color, stuff like that.
 
 There's a few other places that you'll want to change, too:
@@ -64,9 +64,10 @@ run into trouble or have suggestions. Pull Requests always welcome.
 [font-awesome]: http://fortawesome.github.io/Font-Awesome/
 [gfonts]: http://www.google.com/fonts/specimen/Open+Sans
 [fork]: https://github.com/swanson/lagom/fork
-[config]: https://github.com/swanson/lagom/blob/master/_config.yml
+[config]: https://github.com/swanson/lagom/blob/master/_data/theme.yml
 [cname]: https://github.com/swanson/lagom/blob/master/CNAME
 [favicon]: https://github.com/swanson/lagom/blob/master/favicon.png
 [logo]: https://github.com/swanson/lagom/blob/master/logo.png
 [pages]: http://pages.github.com
 [twitter]: https://twitter.com/_swanson
+[pages]: https://github.com/github/pages-gem

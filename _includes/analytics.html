@@ -1,8 +1,8 @@
-{% if site.theme.google_analytics_key %}
+{% if site.data.theme.google_analytics_key %}
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '{{ site.theme.google_analytics_key }}']);
+  _gaq.push(['_setAccount', '{{ site.data.theme.google_analytics_key }}']);
   _gaq.push(['_trackPageview']);
 
   (function() {
