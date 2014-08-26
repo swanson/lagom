@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attention à l'IP load balancée chez OVH
+title: l'IP load balancée chez OVH : le piège de l'option multidatacenter
 categories:
 - blog
 ---
@@ -29,24 +29,8 @@ J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après
 
 ## L'IP Anycast, le mal de ce monde
 
-VHS post-ironic cred **bespoke** banjo. Yr wayfarers literally gentrify, flexitarian fap
-dreamcatcher plaid cornhole Intelligentsia paleo. Beard try-hard direct trade, shabby chic
-Helvetica `look ma, I can code`. Lo-fi American Apparel tattooed [Vice](#) tofu, yr vinyl.
-Williamsburg butcher hella mumblecore fixie mlkshk, cliche wolf keytar mixtape kitsch banh mi
-salvia. High Life Odd Future *chambray* kale chips hoodie, cray pop-up. Helvetica narwhal
-iPhone try-hard jean shorts.
+L'utilité de cette option réside dans le fait de vous **rediriger vers le datacenter le plus proche** en ignorant complètement le _poids de vos backend_
 
-> This is a quote from someone famous about productivity
+Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction:
 
-
-Syntax highlighting with Solarized theme.
-
-{% highlight ruby %}
-class User < ActiveRecord::Base
-  attr_accessible :email, :name
-
-  ... tons of other crap ...
-
-end
-
-{% endhighlight %}
+<div style="max-width: 500px;" id="_giphy_NZhO1SEuFmhj2"></div><script>var _giphy = _giphy || []; _giphy.push({id: 'NZhO1SEuFmhj2',w: 300, h: 205});var g = document.createElement('script'); g.type = 'text/javascript'; g.async = true;g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'giphy.com/static/js/widgets/embed.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(g, s);</script>
