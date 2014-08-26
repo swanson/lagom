@@ -1,6 +1,6 @@
 ---
 layout: post
-title: l'IP load balancée chez OVH : le piège de l'option multidatacenter
+title: IP load balancée chez OVH : le piège de l'option multidatacenter
 categories:
 - blog
 ---
@@ -8,7 +8,6 @@ categories:
 Dans le cadre du projet de migration d'infrastructure, j'avais prévu de faire du load balancing via <a href="https://www.ovh.com/fr/solutions/ip-load-balancing/" target="_blank">l'IP Load balancing d'OVH</a> entre **datacenter**.
 
 ---
-
 
 ## Tout ne s'est pas passé comme prévu
 
@@ -29,4 +28,3 @@ J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après
 L'utilité de cette option réside dans le fait de vous **rediriger vers le datacenter le plus proche** en ignorant complètement le _poids de vos backend_
 
 Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction.
-
