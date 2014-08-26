@@ -31,4 +31,7 @@ J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après
 
 L'utilité de cette option réside dans le fait de vous **rediriger vers le datacenter le plus proche** en ignorant complètement le _poids de vos backend_
 
-Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction
+Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction:
+
+<iframe src="//giphy.com/embed/gyCv1uP2HaIH6?playOnHover=true" width="500" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
