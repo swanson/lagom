@@ -31,7 +31,7 @@ J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après
 
  Ainsi, avec l'unicast, vous aurez beau mettre un poids de 1 sur votre serveur à Strasbourg et un poids de 8 sur votre serveur à Roubaix (le serveur de Roubaix recevra 8 fois plus de requête que celui de Strasbourg), ce dernier sera complètement ignoré. Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction:
 
-<iframe src="//giphy.com/embed/8pJYlwT4FNSZq?playOnHover=true" width="500" height="500" frameBorder="0" ></iframe>
+<iframe src="//giphy.com/embed/8pJYlwT4FNSZq?playOnHover=true" width="300" height="300" frameBorder="0" ></iframe>
 
 ## Un mal pour un bien
 
