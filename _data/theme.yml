@@ -1,0 +1,28 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#3498db'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: swanson
+  #bitbucket: philipj
+  hacker_news: swanson
+  #stackexchange: 348619
+  #stackoverflow: 348619
+  twitter: _swanson
+  #facebook: zuck
+  #tumblr: animalygifs
+  #linkedin: philipjagielski
+  #gplus: 110552447039675960964
+
+# "Hi, I'm _______"
+name: Matt Swanson
+email: test@example.com
+tagline: "weak opinions, strongly held"
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: UA-xxxx-x
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: true

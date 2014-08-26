@@ -1,0 +1,69 @@
+Follow me:
+<div id="stalker">
+  {% if site.data.theme.social.github %}
+  <a title="{{ site.data.theme.social.github }} on Github" href="https://github.com/{{ site.data.theme.social.github }}">
+    <i class="fa fa-github-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.bitbucket %}
+  <a title="{{ site.data.theme.social.bitbucket }} on Bitbucket" href="https://bitbucket.com/{{ site.data.theme.social.bitbucket }}/">
+    <i class="fa fa-bitbucket-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.hacker_news %}
+  <a title="{{ site.data.theme.social.hacker_news }} on Hacker News" href="https://news.ycombinator.com/user?id={{site.data.theme.social.hacker_news }}">
+     <span class="fa-stack">
+      <i class="fa fa-stack-1x fa-square"></i>
+      <i class="fa fa-stack-1x fa-hn">Y</i>
+    </span>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.stackexchange %}
+  <a title="{{ site.data.theme.name }} on Stack Exchange" href="https://stackexchange.com/users/{{site.data.theme.social.stackexchange }}">
+    <i class="fa fa-stack-exchange"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.stackoverflow %}
+  <a title="{{ site.data.theme.name }} on Stack Overflow" href="http://stackoverflow.com/users/{{site.data.theme.social.stackoverflow }}">
+    <i class="fa fa-stack-overflow"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.twitter %}
+  <a title="{{ site.data.theme.social.twitter }} on Twitter" href="https://twitter.com/{{ site.data.theme.social.twitter }}">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.facebook %}
+  <a title="{{ site.data.theme.name }} on Facebook" href="https://facebook.com/{{ site.data.theme.social.facebook }}">
+    <i class="fa fa-facebook-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.tumblr %}
+  <a title="{{ site.data.theme.name }} on tumblr" href="https://{{ site.data.theme.social.tumblr }}.tumblr.com">
+    <i class="fa fa-tumblr-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.linkedin %}
+  <a title="{{ site.data.theme.name }} on LinkedIn" href="https://www.linkedin.com/in/{{ site.data.theme.social.linkedin }}">
+    <i class="fa fa-linkedin-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.gplus %}
+  <a title="{{ site.data.theme.name }} on Google Plus" href="https://plus.google.com/{{ site.data.theme.social.gplus }}">
+    <i class="fa fa-google-plus-square"></i>
+  </a>
+  {% endif %}
+
+  <a title="RSS feed" id="rss" href="/atom.xml">
+    <i class="fa fa-rss-square"></i>
+  </a>
+</div>
