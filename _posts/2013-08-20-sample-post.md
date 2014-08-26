@@ -24,7 +24,7 @@ Pourquoi 2 datacenter différents ? Quand on commence à penser "infrastructure 
 
 J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après avoir déclarés mes deux backend (frontaux web) afin que l'IP LB répartisse la charge, je me suis vite apperçu que seul le serveur de Roubaix recevait des requêtes. Mais pourquoi ?
 
-{% tweet http://twitter.com/sf_tristanb/status/501338034051502080 %}
+{% tweet 501338034051502080 %}
 
 ## L'IP Anycast, le mal de ce monde
 
