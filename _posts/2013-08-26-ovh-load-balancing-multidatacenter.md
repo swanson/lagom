@@ -33,4 +33,3 @@ L'utilité de cette option réside dans le fait de vous **rediriger vers le data
 
 Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction:
 
-<iframe src="//giphy.com/embed/NZhO1SEuFmhj2" width="500" height="341" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
