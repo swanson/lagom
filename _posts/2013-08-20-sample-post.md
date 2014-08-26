@@ -1,31 +1,38 @@
 ---
 layout: post
-title: Sample post
+title: Attention à l'IP load balancée chez OVH
 categories:
 - blog
 ---
 
-Tattooed roof party *vinyl* freegan single-origin coffee wayfarers tousled, umami yr 
-meggings hella selvage. Butcher bespoke seitan, cornhole umami gentrify put a bird 
-on it occupy trust fund. Umami whatever kitsch, locavore fingerstache Tumblr pork belly
-[keffiyeh](#). Chia Echo Park Pitchfork, Blue Bottle [hashtag](#) stumptown skateboard selvage 
-mixtape. Echo Park retro butcher banjo cardigan, seitan flannel Brooklyn paleo fixie 
-Truffaut. Forage mustache Thundercats next level disrupt. Bicycle rights forage tattooed
-chia, **wayfarers** swag raw denim hashtag biodiesel occupy gastropub!
+Dans le cadre du projet de migration d'infrastructure, j'avais prévu de faire du load balancing via <a href="https://www.ovh.com/fr/solutions/ip-load-balancing/" target="_blank">l'IP Load balancing d'OVH</a> entre **datacenter**.
 
 ---
 
-# It's all in the game.
 
-## You come at the king, you best not miss.
+## Tout ne s'est pas passé comme prévu
 
-### Be subtle with it, man. You know what subtle means?
+L'idée initiale était pourtant simple, répartir les requêtes entre 2 serveurs frontaux web situés dans 2 datacenter différents (Strasbourg et Roubaix).
 
-VHS post-ironic cred **bespoke** banjo. Yr wayfarers literally gentrify, flexitarian fap 
-dreamcatcher plaid cornhole Intelligentsia paleo. Beard try-hard direct trade, shabby chic 
-Helvetica `look ma, I can code`. Lo-fi American Apparel tattooed [Vice](#) tofu, yr vinyl. 
-Williamsburg butcher hella mumblecore fixie mlkshk, cliche wolf keytar mixtape kitsch banh mi 
-salvia. High Life Odd Future *chambray* kale chips hoodie, cray pop-up. Helvetica narwhal 
+Pourquoi 2 datacenter différents ? Quand on commence à penser "infrastructure redondée", on commence à devenir parano:
+
+> Que se passe t'il si le datacenter A explose ? MJ.
+
+
+![Idée initiale](/assets/images/ovh_lb_initial_idea.png)
+
+
+J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après avoir déclarés mes deux backend (frontaux web) afin que l'IP LB répartisse la charge, je me suis vite apperçu que seul le serveur de Roubaix recevait des requêtes. Mais pourquoi ?
+
+{% tweet http://twitter.com/sf_tristanb/status/501338034051502080 %}
+
+## L'IP Anycast, le mal de ce monde
+
+VHS post-ironic cred **bespoke** banjo. Yr wayfarers literally gentrify, flexitarian fap
+dreamcatcher plaid cornhole Intelligentsia paleo. Beard try-hard direct trade, shabby chic
+Helvetica `look ma, I can code`. Lo-fi American Apparel tattooed [Vice](#) tofu, yr vinyl.
+Williamsburg butcher hella mumblecore fixie mlkshk, cliche wolf keytar mixtape kitsch banh mi
+salvia. High Life Odd Future *chambray* kale chips hoodie, cray pop-up. Helvetica narwhal
 iPhone try-hard jean shorts.
 
 > This is a quote from someone famous about productivity
