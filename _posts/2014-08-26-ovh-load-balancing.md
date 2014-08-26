@@ -1,6 +1,6 @@
 ---
 layout: post
-title: l'IP load balancée chez OVH : le piège de l'option multidatacenter
+title: IP load balancée chez OVH : le piège de l'option multidatacenter
 categories:
 - blog
 ---
