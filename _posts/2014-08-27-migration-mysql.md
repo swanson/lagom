@@ -23,16 +23,18 @@ Avant :
 
 Après : 
 
-  | Nom        | Reference                                      |
-  |------------|------------------------------------------------|
-  | CPU        | Intel Xeon E5-1620v2 4c/8t @ 3,8Ghz            |
-  | RAM        | 32 Go DDR3ECC 1600MHz                          |
-  | Hard Drive | 3x 160Go SSD Intel DC S3500 SATA3 6Gbps        |
-  | Network    | 1 Gbps Public network + 1 Gbps Private network |
+| Nom        | Reference                                      |
+|------------|------------------------------------------------|
+| CPU        | Intel Xeon E5-1620v2 4c/8t @ 3,8Ghz            |
+| RAM        | 32 Go DDR3ECC 1600MHz                          |
+| Hard Drive | 3x 160Go SSD Intel DC S3500 SATA3 6Gbps (Raid 1)|
+| Network    | 1 Gbps Public network + 1 Gbps Private network |
   
 
 ## Tuning MariaDB 10.0.x
 
+Les serveurs web et de base de données communiquent entre eux sur le vRack, sur une autre carte réseau, via un réseau privé (coupé du net). Cela permet d'éviter de flood la carte réseau publique de call inutile, et d'à terme, d'isoler les serveurs de BDD du réseau public (NSA si tu me lis)...
+OVH, par de multiples mise en garde, ont l'air de décourager cette pratique, qui pourtant est le gros avantage du **vRack**.
 
 Pour connaitre le max IOPS (Input/Output Operation Per Second), rendez vous sur la fiche constructeur de votre SSD, il devrait être renseigné sur sa fiche. (Pensez quand même à retirer 10-15% des valeurs annoncés par les constructeurs).
 Si vous êtes en disque dur à plateaux en Raid, des méthodes de calculs sont disponibles ici.
@@ -46,6 +48,5 @@ Lorsque j'ai fais monter l'application à 300 requêtes par seconde, MariaDB est
 
 
 ## Résultat
-
 
 Côté montée de charge, comme souvent en PHP, on est rapidement limité par PHP plutôt que par la base de données. 
