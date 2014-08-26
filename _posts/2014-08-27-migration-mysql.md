@@ -23,12 +23,13 @@ Avant :
 
 Après : 
 
-| CPU        | Intel Xeon E5-1620v2 4c/8t @ 3,8Ghz            |
-|------------|------------------------------------------------|
-| RAM        | 32 Go DDR3ECC 1600MHz                          |
-| Hard Drive | 3x 160Go SSD Intel DC S3500 SATA3 6Gbps        |
-| Network    | 1 Gbps Public network + 1 Gbps Private network |
-
+  | Nom        | Reference                                      |
+  |------------|------------------------------------------------|
+  | CPU        | Intel Xeon E5-1620v2 4c/8t @ 3,8Ghz            |
+  | RAM        | 32 Go DDR3ECC 1600MHz                          |
+  | Hard Drive | 3x 160Go SSD Intel DC S3500 SATA3 6Gbps        |
+  | Network    | 1 Gbps Public network + 1 Gbps Private network |
+  
 
 ## Tuning MariaDB 10.0.x
 
@@ -37,8 +38,6 @@ Pour connaitre le max IOPS (Input/Output Operation Per Second), rendez vous sur 
 Si vous êtes en disque dur à plateaux en Raid, des méthodes de calculs sont disponibles ici.
 
 Cette petite appartée étant fermée, le but de l'article n'est pas de vous expliquer à quoi servent toutes ces optimisations, j'en serai incapable, malgré des recherches poussées sur le tuning MariaDB. 
-
-
 
 
 ## Test de montée de charge
