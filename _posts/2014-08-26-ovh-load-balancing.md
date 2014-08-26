@@ -28,19 +28,17 @@ J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après
 
 > Anycast est une technique d'adressage et de routage permettant de rediriger les données vers le serveur informatique le "plus proche" ou le "plus efficace" selon la politique de routage.
 
- Ainsi, avec l'unicast, vous aurez beau mettre un poids de 1 sur votre serveur à Strasbourg et un poids de 8 sur votre serveur à Roubaix, (le serveur de Roubaix recevra 8 fois plus de requête que celui de Strasbourg), ce dernier sera complètement ignoré.
-
-Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction:
+ Ainsi, avec l'unicast, vous aurez beau mettre un poids de 1 sur votre serveur à Strasbourg et un poids de 8 sur votre serveur à Roubaix (le serveur de Roubaix recevra 8 fois plus de requête que celui de Strasbourg), ce dernier sera complètement ignoré. Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse admirer ma réaction:
 
 <iframe src="//giphy.com/embed/gyCv1uP2HaIH6?playOnHover=true" width="500" height="281" frameBorder="0"></iframe>
 
 ## Un mal pour un bien
 
-Finalement, cette histoire d'IP Anycast est une très bonne idée, il faut juste faire attention à ne pas se faire pieger.
+Finalement, cette histoire d'IP Anycast est une **très bonne idée** pour les sociétés proposant des services mondiaux.
 Voilà une idée d'infra qui fonctionnerait avec l'IP load balancing compatible multicentre :
 
-Finalement, j'ai rappatrié les 2 serveurs fautifs sur Roubaix et tout est rentré dans l'ordre. La latence réduite au sein d'un même datacenter sur un réseau vRack me permettra même de monter un cluster Galera ou Perconna, mais ça, c'est une autre histoire.
+Finalement, j'ai rappatrié les 2 serveurs fautifs sur Roubaix et tout est rentré dans l'ordre. La latence réduite au sein d'un même datacenter sur un réseau vRack me permettra même de monter un cluster _Galera_ ou _Perconna_, mais ça, c'est une autre histoire.
 
 ## Conclusion
 
-L'IP load balancing permet de faire du **load balancing au sein de différents datacenter**, et non **entre** datacenter 
+L'IP load balancing permet de faire du **load balancing au sein de différents datacenter**, et non **entre** datacenter. 
