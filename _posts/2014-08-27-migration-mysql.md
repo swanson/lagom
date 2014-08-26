@@ -9,7 +9,7 @@ Cet billet s'inscrit dans le cadre d'une série d'article visant à expliquer le
 
 ---
 
-# MYSQL vs MariaDB
+# MySQL vs MariaDB
 
 L'application tournait sur du **MySQL 5.1** avec comme moteur **InnoDB**. Le choix de partir sur du MariaDB s'est imposé du fait de sa réputation côté performance (J'entends déjà les pro PostgreSQL gronder au loin), et du fait que <a href="http://www.zdnet.com/google-quietly-dumps-oracle-mysql-for-mariadb-7000020670/" target="_blank"> Facebook et Google ont dit adieu à MySQL</a>.
 
