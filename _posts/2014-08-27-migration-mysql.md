@@ -99,9 +99,9 @@ Comme souvent en PHP, on est rapidement limité par PHP plutôt que par la base 
 
 Voila le résultat obtenu avant/après la migration, le dernier pic d'activité correspond à l'export de la BDD.
 
-![Idée initiale](/assets/images/db_perf.png)
+![Performance DB](/assets/images/db_perf.png)
 
 Le temps de réponse de la base de donnée à été grandement améliorée, **on passe de 7ms à 0.3ms** soit un facteur **x23**
 
-![Idée initiale](/assets/images/db_latency.png)
+![Latence DB MariaDB](/assets/images/db_latency.png)
 
