@@ -91,15 +91,15 @@ Des problèmes de tables framgentées sont remontés avoir lancé un **mysql_tun
 
 Lorsque j'ai fais monter l'application à 300 requêtes par seconde, **MariaDB est monté jusqu'à 450 requêtes par secondes** (4500/10 secondes sur le graph ci dessous). J'ai eu quelques erreurs comme quoi plus de slots de connexion MySQL étaient disponible, ce qui m'à ammené à passer de `max-connections=500` à `max-connections=1000`.
 
-![Idée initiale](/assets/images/db_monte_charge.png)
+Comme souvent en PHP, on est rapidement limité par PHP plutôt que par la base de données. Il semble que je ne sois pas arrivé au max de la capacité de MariaDB.
 
+![Idée initiale](/assets/images/db_monte_charge.png)
 
 ## Résultat
 
-Côté montée de charge, comme souvent en PHP, on est rapidement limité par PHP plutôt que par la base de données.
+Voila le résultat obtenu avant/après la migration, le dernier pic d'activité correspond à l'export de la BDD.
 
 ![Idée initiale](/assets/images/db_perf.png)
-
 
 Le temps de réponse de la base de donnée à été grandement améliorée, **on passe de 7ms à 0.3ms** soit un facteur **x23**
 
