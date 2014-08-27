@@ -11,7 +11,7 @@ Cet billet s'inscrit dans le cadre d'une série d'article visant à expliquer le
 
 # MySQL vs MariaDB
 
-L'application tournait sur du **MySQL 5.1** avec comme moteur **InnoDB**. Le choix de partir sur du MariaDB s'est imposé du fait de sa réputation côté performance (J'entends déjà les pro PostgreSQL gronder au loin), et du fait que <a href="http://www.zdnet.com/google-quietly-dumps-oracle-mysql-for-mariadb-7000020670/" target="_blank"> Google et Wikipedia ont dit adieu à MySQL</a>.
+L'application Symfony2 tournait sur du **MySQL 5.1** avec comme moteur **InnoDB**. Le choix de partir sur du MariaDB s'est imposé du fait de sa réputation côté performance (J'entends déjà les pro PostgreSQL gronder au loin), et du fait que <a href="http://www.zdnet.com/google-quietly-dumps-oracle-mysql-for-mariadb-7000020670/" target="_blank"> Google et Wikipedia ont dit adieu à MySQL</a>.
 
 Pour information, **MariaDB** à été conçu comme un "drop-in replacement" de MySQL. Les binaires se nomment de la même manière. La transition MySQL -> MariaDB s'est fait sans aucun incident. J'utilise **XtraDB** qui est le drop-in replacement pour InnoDB, la aussi patché et optimisé dans tout les sens.
 
