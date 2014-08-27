@@ -46,9 +46,7 @@ Finalement, j'ai rappatrié les 2 serveurs fautifs sur Roubaix et tout est rentr
 
 L'IP load balancing permet de faire du **load balancing au sein de différents datacenter**, et non **entre** datacenter.
 
-**Edit**
-
-Octave Klaba, directeur général OVH, a réagi à l'article, et il serait possible de faire du load balancing entre datacenter en le demandant au support:
+**Edit**: Octave Klaba, directeur général OVH, a réagi à l'article, et il serait possible de faire du load balancing entre datacenter en le demandant au support:
 
 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p><a href="https://twitter.com/sf_tristanb">@sf_tristanb</a> tu as 2 options avec IP LB &quot;Anycast&quot;: master/slave ou master/master. Par défaut, c&#39;est master/slave. L&#39;autre on le fait au mano</p>&mdash; Octave Klaba / Oles (@olesovhcom) <a href="https://twitter.com/olesovhcom/statuses/504612684437151745">August 27, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
