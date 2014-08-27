@@ -25,22 +25,23 @@ J'ai donc souscrit à l'option IP LB compatible **multidatacentre**, mais après
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## L'IP Anycast, la technologie responsable 
+## L'IP Anycast, la technologie responsable
 
 > Anycast est une technique d'adressage et de routage permettant de rediriger les données vers le serveur informatique le "plus proche" ou le "plus efficace" selon la politique de routage.
 
- Ainsi, avec l'unicast, vous aurez beau mettre un poids de 1 sur votre serveur à Strasbourg et un poids de 8 sur votre serveur à Roubaix (le serveur de Roubaix recevra 8 fois plus de requête que celui de Strasbourg), ce dernier sera complètement ignoré. Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse imaginer ma réaction:
-
-<iframe src="//giphy.com/embed/8pJYlwT4FNSZq?playOnHover=true" width="300" height="300" frameBorder="0" ></iframe>
+ Ainsi, avec l'unicast, vous aurez beau mettre un poids de 1 sur votre serveur à Strasbourg et un poids de 8 sur votre serveur à Roubaix (le serveur de Roubaix recevra 8 fois plus de requête que celui de Strasbourg), ce dernier sera complètement ignoré. Etant donné la proximité de Roubaix et de Strasbourg, je vous laisse imaginer ma réaction.
 
 ## Un mal pour un bien
 
 Finalement, cette histoire d'IP Anycast est une **très bonne idée** pour les sociétés proposant des services mondiaux.
 Voilà une idée d'infra qui fonctionnerait avec l'IP load balancing compatible multicentre :
 
+![Idée initiale](/assets/images/ovh_lb_multi.png)
+
+
 Finalement, j'ai rappatrié les 2 serveurs fautifs sur Roubaix et tout est rentré dans l'ordre. La latence réduite au sein d'un même datacenter sur un réseau vRack me permettra même de monter un cluster _Galera_ ou _Perconna_, mais ça, c'est une autre histoire.
 
 
 ## Conclusion
 
-L'IP load balancing permet de faire du **load balancing au sein de différents datacenter**, et non **entre** datacenter. 
+L'IP load balancing permet de faire du **load balancing au sein de différents datacenter**, et non **entre** datacenter.
