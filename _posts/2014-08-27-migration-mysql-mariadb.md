@@ -53,6 +53,7 @@ Après (Ovh.com) :
 ## Tuning MariaDB 10.0.x
 
 Les serveurs web et de base de données communiquent entre eux sur le vRack, via une autre carte réseau, sur un réseau privé (coupé du net). Cela permet d'éviter de flood la carte réseau publique de call inutile, et d'à terme, d'isoler les serveurs de BDD du réseau public (NSA...).
+
 OVH, par de multiples mise en garde, ont l'air de décourager cette pratique, qui pourtant est le gros avantage du **vRack**.
 
 Cette petite appartée étant fermée, le but de l'article n'est pas de vous expliquer à quoi servent toutes ces optimisations que j'ai pu trouver [ici](http://www.tocker.ca/2013/09/17/what-to-tune-in-mysql-56-after-installation.html), ou [là](https://blog.mariadb.org/performance-evaluation-of-mariadb-10-1-and-mysql-5-7-4-labs-tplc/)
