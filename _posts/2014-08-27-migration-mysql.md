@@ -15,6 +15,11 @@ L'application Symfony2 tournait sur du **MySQL 5.1** avec comme moteur **InnoDB*
 
 Pour information, **MariaDB** à été conçu comme un "drop-in replacement" de MySQL. Les binaires se nomment de la même manière. La transition MySQL -> MariaDB s'est fait sans aucun incident. J'utilise **XtraDB** qui est le drop-in replacement pour InnoDB, la aussi patché et optimisé dans tout les sens.
 
+Pour information, voilà avec l'ancien serveur MySQL ce que l'on obtenais :
+
+![Performance Before DB](/assets/images/online_mysql_counter.png)
+
+
 ## Le Hardware
 
 Avant :
@@ -85,7 +90,7 @@ Si vous êtes en disque dur à plateaux en RAID, des méthodes de calculs sont [
 
 L'application possède des _tables de logs_ où sont consignés tous les changements opérés sur l'application. J'ai purgé ces tables, la base de donnée est passée de 7Go à 2Go.
 
-Des problèmes de tables framgentées sont remontés avoir lancé un **mysql_tuner**. Un petit `mysqlcheck -o` qui va successivement faire un `CHECK TABLE`,`REPAIR TABLE`,`ANALYZE TABLE` et finalement un `OPTIMIZE TABLE` à résolu le problème.
+Des problèmes de tables framgentées sont remontés avoir lancé un **mysql_tuner**. Un petit `mysqlcheck -o` qui va successivement faire un `CHECK TABLE`, `REPAIR TABLE`, `ANALYZE TABLE` et finalement un `OPTIMIZE TABLE` à résolu le problème.
 
 ## Test de montée de charge
 
