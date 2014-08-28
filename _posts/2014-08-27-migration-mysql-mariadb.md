@@ -7,6 +7,12 @@ categories:
 
 Cet billet s'inscrit dans le cadre d'une série d'article visant à expliquer les différentes étapes de la migration d'une infrastructure, et vous expliquer comment j'ai réussi à diviser par 2 le temps de réponse de l'application.
 
+Dans la série:
+
+* Part1. MySQL vs MariaDB
+* Part2. Apache2 vs Nginx (a venir)
+* Part3. Le résultat avant / après (à venir)
+
 ---
 
 # MySQL vs MariaDB
