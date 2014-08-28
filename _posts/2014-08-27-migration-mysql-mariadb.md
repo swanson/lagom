@@ -32,7 +32,7 @@ Avant (Online.net) :
 
 | Nom        | Reference                                      |
 |------------|------------------------------------------------|
-| CPU        | Intel Xeon L3426 @ 1,8Ghz                      |
+| CPU        | Intel Xeon 4c/8t L3426 @ 1,8Ghz                |
 | RAM        | 16 Go                                          |
 | Hard Drive | 2x1,8To @ 3500rpm                              |
 | Network    | 400Mbps                                        |
