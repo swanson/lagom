@@ -17,7 +17,7 @@ Dans la série:
 
 ## Apache vs Nginx (PHP5-FPM)
 
-L'application tournait avec `Apache 2.2` et `php-5.4.6`. J'ai décidé de migrer sur du `nginx 1.6` avec `php-fpm 5.5.15`
+L'application tournait avec `Apache 2.2` + `PHP 5.4.6` + `APC`. J'ai décidé de migrer sur du `nginx 1.6` + `php-fpm 5.5.15` + `APCu` + `OPCache`
 
 ## Le Hardware
 
@@ -196,6 +196,13 @@ Jusqu'à 25/user par seconde en continu:
 
 ![25 clients per sec after with nginx](/assets/images/25_after_nginx.png)
 
+
+## PHP 5.5 et la gestion de la mémoire.
+
+La grande nouveauté de PHP 5.4, c'était la gestion de la mémoire améliorée et d'ailleurs nombre d'entre vous ont publiés des benchmark interessant montrant le gain de consomation mémoire.
+Du coup voilà un comparatif de la consommation mémoire entre PHP 5.4 vs PHP 5.5. On peux constater qu'il y à une légère amélioration de la consommation.
+
+![Memory usage comparaison php 5.4 vs php 5.5](/assets/images/memory_php.png)
 
 ## Résultat
 
