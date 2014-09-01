@@ -10,7 +10,7 @@ Cet billet, au titre racolleur, s'inscrit dans le cadre d'une série d'article v
 Dans la série:
 
 * Part1. MySQL vs MariaDB
-* Part2. Apache2 vs Nginx (a venir)
+* Part2. [Apache2 vs Nginx]({% post_url 2014-09-01-migration-apache2-nginx %})
 * Part3. Le résultat avant / après (à venir)
 
 ---
@@ -34,7 +34,7 @@ Avant (Online.net) :
 |------------|------------------------------------------------|
 | CPU        | Intel Xeon 4c/8t L3426 @ 1,8Ghz                |
 | RAM        | 16 Go                                          |
-| Hard Drive | 2x1,8To @ 3500rpm                              |
+| Hard Drive | 2x1,8To @ 7200rpm                              |
 | Network    | 400Mbps                                        |
 
 <br />
@@ -116,4 +116,3 @@ Voila le résultat obtenu avant/après la migration, le dernier pic d'activité 
 Le temps de réponse de la base de donnée à été grandement améliorée, **on passe de 7ms à 0.3ms** soit un facteur **x23**
 
 ![Latence DB MariaDB](/assets/images/db_latency.png)
-
