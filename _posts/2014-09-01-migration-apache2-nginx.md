@@ -12,8 +12,9 @@ Dans la série:
 
 * Part1. [MySQL vs MariaDB]({% post_url 2014-08-27-migration-mysql-mariadb %})
 * Part2. Apache2 vs Nginx
-* Part2. Le résultat avant / après
+* Part3. [L'impact de la migration sur les performances]({% post_url 2014-09-02-migration-resultats-performance %})
 
+---
 
 ## Apache vs Nginx (PHP5-FPM)
 
