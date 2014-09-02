@@ -11,7 +11,7 @@ Dans la série:
 
 * Part1. MySQL vs MariaDB
 * Part2. [Apache2 vs Nginx]({% post_url 2014-09-01-migration-apache2-nginx %})
-* Part3. L'impact de la migration sur les performances
+* Part3. [L'impact de la migration sur les performances]({% post_url 2014-09-02-migration-resultats-performance %})
 
 ---
 
