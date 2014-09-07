@@ -107,11 +107,12 @@ nav h1, nav h2 {
   text-align: center;
 }
 
-nav hr {
+#bio {
   margin-top: 10px;
   margin-bottom: 15px;
   border: dotted #ddd;
-  border-width: 1px 0 0;
+  border-width: 1px 0;
+  padding-top: 15px;
 }
 
 #social {
