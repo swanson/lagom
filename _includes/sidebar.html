@@ -4,17 +4,13 @@
     <img src="/logo.png" id="logo" alt="Blog logo"/>
   </a>
   <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
-  <hr/>
-  <ul>
-  <p>A brief bio or something witty.</p>
-  <p>
-    Edit me in <code>_includes/sidebar.html</code>
-  </p>
-  <hr/>
-  <div>
-    <div id="social">
-      {% include social.html %}
-    </div>
+  <div id="bio">
+    <p>A brief bio or something witty.</p>
+    <p>
+      Edit me in <code>_includes/sidebar.html</code>
+    </p>
   </div>
-  </ul>
+  <div id="social">
+    {% include social.html %}
+  </div>
 </nav>
