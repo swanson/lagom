@@ -253,3 +253,8 @@ i.fa-hn {
   font-size: smaller;
   padding-bottom: 10px
 }
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
