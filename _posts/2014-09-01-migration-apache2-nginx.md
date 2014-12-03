@@ -5,7 +5,7 @@ categories:
 - blog
 ---
 
-Cet billet, au titre racolleur, s'inscrit dans le cadre d'une série d'article visant à expliquer comment j'ai réussi à diviser par 2 le temps de réponse de notre application Symfony2 sans toucher au côté applicatif.
+Ce billet, au titre racolleur, s'inscrit dans le cadre d'une série d'article visant à expliquer comment j'ai réussi à diviser par 2 le temps de réponse de notre application Symfony2 sans toucher au côté applicatif.
 
 Dans la série:
 
