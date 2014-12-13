@@ -2,7 +2,7 @@
 ---
 [
 {% for item in site.posts %}
-{"date": {{ item.date | jsonify }},
+{"date": {{ item.date | date_to_rfc822 | jsonify }},
 "categories": {{ item.categories | jsonify }},
 "tags": {{ item.tags | jsonify}},
 "title": {{ item.title | jsonify}},
