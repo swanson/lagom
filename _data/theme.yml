@@ -5,24 +5,24 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  github: jaxxstorm
   #bitbucket: philipj
-  hacker_news: swanson
+  #hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
-  twitter: _swanson
+  twitter: briggsl
   #facebook: zuck
   #tumblr: animalygifs
-  #linkedin: philipjagielski
+  linkedin: briggsl
   #gplus: 110552447039675960964
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: Lee Briggs
+email: lee@leebriggs.co.uk
+tagline: "Lover, Fighter, Administrator"
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-xxxx-x
+google_analytics_key: UA-34865189-1
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
