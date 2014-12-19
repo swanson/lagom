@@ -15,9 +15,9 @@ The first thing I need to do was replace the old [Wordpress](https://wordpress.c
 
 - First, pick a theme. I went with the excellent [lagom](https://github.com/swanson/lagom) theme
 - Fork it in Github
-- Rename the repo to <gitusername>.github.io
+- Rename the repo to {gitusername}.github.io
 - Edit the theme as required, adding your name and personal data
-- Push back to the repo
+- Push back to the master branch in the repo
 
 It was so easy, I wondered why the hell I'd been messing around with PHP/MySQL and Apache!
 
@@ -33,4 +33,42 @@ bundle exec jekyll serve
 
 You can see the post as you edit it at http://localhost:4000.
 
+## Resume
 
+My website has acted as my online resume and presence for a long time, and moving to Jekyll meant that functionality had gone. In order to keep with the git based theme, I've moved it to the opensource [JSONResume](https://jsonresume.org/) format.
+
+The JSON resume project is basically, as you would expect, a schema definition for resumes. What makes it interesting is that it comes with a tool, [resume-cli](https://github.com/jsonresume/resume-cli) and an hosting repository which is bundled into it, the [JSON Resume Registry](http://registry.jsonresume.org/) as well as an online editor.
+
+This whole ecosystem really took the pain out of updating my CV. First, I installed the tool:
+
+{% highlight bash %}
+npm install -g resume-cli
+{% endhighlight %}
+
+I used used the resume-cli to generate a template inside my git repository
+
+{% highlight bash %}
+resume-cli init
+{% endhighlight %}
+
+I used the [schema](https://jsonresume.org/schema/) to fill out all the relevant details, and then picked a [theme](https://jsonresume.org/themes/) from those available. Once I was done, I can publish the resume for easy viewing with the resume-cli:
+
+{% highlight bash %}
+resume-cli publish --theme elegant
+{% endhighlight %}
+
+Again, like Jekyll, you can see how this all looks locally before publishing:
+
+{% highlight bash %}
+resume-cli serve --theme elegant
+{% endhighlight %}
+
+I think the result [looks great](https://registry.jsonresume.org/briggsl) and I can easily generate a PDF for emailing if needs be, even with a different theme:
+
+{% highlight bash %}
+resume-cli export --theme elegant --format pdf
+{% endhighlight %}
+
+## Wiki
+
+The final step, and most difficult, was replacing my Wiki. I still haven't replaced my beloved [dokuwiki](https://www.dokuwiki.org/dokuwiki) which really allowed me to keep some stuff I need seperate, and some leave some things in the public domain. I've contemplated simply using a [Github Wiki](https://help.github.com/articles/about-github-wikis/) but it doesn't allow you to keep things locked down, which is really important for me to document things like how I configure XYZ. I don't want anyone seeing my exact preferred apache configuration, for example.
