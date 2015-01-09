@@ -9,7 +9,7 @@ Extracted lovingly from [http://mdswanson.com][mds] for your enjoyment!
 * Responsive, based on [Skeleton][skeleton]
 * [Font Awesome][font-awesome] for icons
 * Open Sans from [Google web fonts][gfonts]
-* Built-in Atom RSS feed
+* Built-in Atom feed
 
 ## Action Shots
 ![](http://i.imgur.com/Pmzk4j1.png)
