@@ -184,8 +184,15 @@ nav h1, nav h2 {
   color: {{ site.data.theme.highlight_color }};
 }
 
-#logo {
+#logo, #gravatar {
   margin-bottom: 25px;
+}
+
+#gravatar {
+  width: 180px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 
 #stalker {
