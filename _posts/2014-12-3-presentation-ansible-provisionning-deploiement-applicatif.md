@@ -16,6 +16,6 @@ Le talk réponds entre autre à ces questions:
  * Pourquoi le mettre en place ?
  * Pourquoi Ansible et pas Chef ou Puppet ?
  * Comment déployer une application avec Ansible ?
- * Quelles sont les différences avec des outils de déploiement comme Frabrik ou Capistrano ?
+ * Quelles sont les différences avec des outils de déploiement comme Frabric ou Capistrano ?
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/6vRJx8hqrzw" frameborder="0" allowfullscreen></iframe>
