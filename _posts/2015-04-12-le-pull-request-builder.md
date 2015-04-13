@@ -25,7 +25,7 @@ Basically, the pull request builder makes your pull request **accessible on a pr
  * [Tower-cli](https://github.com/ansible/tower-cli), a tool to comunicate with the Tower REST API
  * A pre-production server(s) to deploy your PR on
 
-![Pull request builder by Yproximite](/assets/images/thePullRequestBuilder.jpg)
+![Pull request builder by Yproximite](/assets/images/thePullRequestBuilderSmaller.jpg)
 
 
 So you can get started more easily, I've open sourced some basic code (nothing fancy there though).
