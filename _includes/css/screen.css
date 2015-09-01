@@ -107,11 +107,20 @@ nav h1, nav h2 {
   text-align: center;
 }
 
+<<<<<<< HEAD
 nav hr {
   margin-top: 10px;
   margin-bottom: 15px;
   border: dotted #ddd;
   border-width: 1px 0 0;
+=======
+#bio {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: dotted #ddd;
+  border-width: 1px 0;
+  padding-top: 15px;
+>>>>>>> upstream/master
 }
 
 #social {
@@ -183,8 +192,16 @@ nav hr {
   color: {{ site.data.theme.highlight_color }};
 }
 
-#logo {
+
+#logo, #gravatar {
   margin-bottom: 25px;
+}
+
+#gravatar {
+  width: 180px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 
 #stalker {
@@ -251,4 +268,9 @@ i.fa-hn {
   text-align: center;
   font-size: smaller;
   padding-bottom: 10px
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
 }
