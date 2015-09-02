@@ -13,7 +13,6 @@ Are you tired when reviewing code on a pull request, to spend too much time on (
  * ...
  * **Any recurrent requirements your applications needs developer to be reminded of ?**
 
-<br>
 
 We are trying to avoid those kind of situations:
 
