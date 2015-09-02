@@ -8,8 +8,9 @@ categories:
 Are you tired when reviewing code on a pull request, to spend too much time on (important yet time consuming) details, such as:
 
  * Is the code PSR valid ?
- * Did the developer though of adding the config key in the right file ?
+ * Did the developer thought adding the config key in the right file ?
  * Are the SQL migrations generated ?
+ * ...
  * **Any recurrent requirements your applications needs developer to be reminded of ?**
 
 <br>
