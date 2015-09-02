@@ -23,6 +23,8 @@ Well, good news, the [PR Review Watcher](https://github.com/Yproximite/PRReviewW
 
 It can save time for your team by avoiding them to check rather insistently for common mistake and focus on code architecture, algoritmh, comprehension...
 
+![Example](https://camo.githubusercontent.com/371d64b78c3fd50e9e64647b1ffad99c769ed863/687474703a2f2f692e696d6775722e636f6d2f6d6352505243552e706e67)
+
 Feel free to [contribute](https://github.com/Yproximite/PRReviewWatcher) and to send PR's (the project is in Silex).
 
 PS: The code style is just one example to illustrate the purpose of the project in a global way. Between you and me, on my team, there's a pre-commit hook to prevent dev from commiting non PSR2 valid code.
