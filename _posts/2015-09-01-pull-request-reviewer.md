@@ -20,10 +20,9 @@ We are trying to avoid those kind of situations:
 ![gif comment pull request PSR](/assets/images/pr.gif)
 
 Well, good news, the [PR Review Watcher](https://github.com/Yproximite/PRReviewWatcher) bot is for you. It will **post a list of checks** you've defined as a Pull Request comment when a new pull request is created.
+Simply
 
 It can save time for your team by avoiding them to check rather insistently for common mistake and focus on code architecture, algoritmh, comprehension...
-
-![Example](https://camo.githubusercontent.com/371d64b78c3fd50e9e64647b1ffad99c769ed863/687474703a2f2f692e696d6775722e636f6d2f6d6352505243552e706e67)
 
 Feel free to [contribute](https://github.com/Yproximite/PRReviewWatcher) and to send PR's (the project is in Silex).
 
