@@ -28,3 +28,6 @@ google_analytics_key: UA-xxxx-x
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+show_atom_feed: true
