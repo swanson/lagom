@@ -1,11 +1,13 @@
 <div class="sidebar-module">
-<h4><a href="/events">Upcoming Events</a></h4>
+<h4><a href="/events">Events</a></h4>
 <ul>
 
-{% for event in site.categories.event reversed limit: 3 %}
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% for event in site.categories.event reversed %}
 
 
 {% capture eventtime %}{{ event.date | date: '%s'}}{% endcapture %}
+{% if eventtime > nowunix %}
 	<li style="list-style-type:none">
 		{% assign d = event.date | date: "%-d" %}
 		{% assign m = event.date | date: "%B" %}
@@ -21,9 +23,10 @@
 			{% when '3' or '23' %}{{ d }}rd
 			{% else %}{{ d }}th 
 		{% endcase %}
-		<br />
+		&mdash;
 		<a href="{{event.url}}">{{event.title}}</a>
 	</li>
+{% endif %}
 {% endfor %}
 </ul>
 </div>
