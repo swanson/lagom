@@ -157,6 +157,7 @@ nav h1, nav h2 {
 }
 
 #sidebar-module {
+  padding-top: 15px;
   border-top: dotted #ddd;
 }
 
