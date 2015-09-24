@@ -4,7 +4,7 @@ title: Team
 nav: main
 permalink: /team/
 ---
-<div class="sidebar-module">
+<div>
 	<h1 class="page-heading">Our Team</h1>
   <ul>
 	  <!-- for loop goes in filename order: order people using date in filename -->
@@ -16,6 +16,9 @@ permalink: /team/
       document.write('<a href="mailto:' + '{{person.email-user}}' + '@' + '{{person.email-host}}' + '">')
     </script>
 	{{person.firstname}} {{person.lastname}} </a>
+  <ul>
+    <li style="list-style-type:none;color:gray"> {{person.bio}} </li>
+  </ul>
   {% endfor %}
   </ul>
 </div>
