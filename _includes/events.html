@@ -2,12 +2,10 @@
 <h4><a href="/events">Upcoming Events</a></h4>
 <ul>
 
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-{% for event in site.categories.event reversed %}
+{% for event in site.categories.event reversed limit: 3 %}
 
 
 {% capture eventtime %}{{ event.date | date: '%s'}}{% endcapture %}
-{% if eventtime > nowunix %}
 	<li style="list-style-type:none">
 		{% assign d = event.date | date: "%-d" %}
 		{% assign m = event.date | date: "%B" %}
