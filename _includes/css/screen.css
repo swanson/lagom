@@ -160,6 +160,12 @@ nav h1, nav h2 {
   border-top: solid #ddd;
 }
 
+#sidebar-module .navlinks {
+  list-style-type:none;
+  padding-left: 20px;
+  font-size:16pt;
+}
+
 .content {
   font: 400 16px/22px "open sans", sans-serif;
   border-left: 1px solid #DDD;
