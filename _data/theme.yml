@@ -1,7 +1,7 @@
 # Theme customization - please change from the defaults!
 
 # Color for top bar, links, etc
-highlight_color: '#3498db'
+highlight_color: '#0F3575'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
@@ -19,9 +19,9 @@ social:
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: Penn Association of Chinese Entrepreneurship
+email: chanlaw@wharton.upenn.edu
+tagline:
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: 
