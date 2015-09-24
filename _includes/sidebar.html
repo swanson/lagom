@@ -8,9 +8,15 @@
   </a>
   <h2>{{ site.data.theme.name }}</h2>
 
-  <div id="sidebar-module">
+  <div id="pages">
   {% include pages.html %}
-  {% include events.html %}
+  </div>
+
+  <div id="events">
+    {% include events.html %}
+  </div>
+
+  <div id="team">
   {% include team.html %}
   </div>
 
