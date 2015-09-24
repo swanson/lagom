@@ -1,0 +1,12 @@
+<div class="sidebar-module">
+  <ul class="navlinks">
+	  <!-- for loop goes in filename order -->
+  {% for page in site.pages %}
+  {% if page.nav == "main" %}
+  <li>
+  <a class="page-nav" href="{{page.url}}">{{page.title}}</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+</div>
