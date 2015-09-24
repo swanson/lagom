@@ -157,7 +157,7 @@ nav h1, nav h2 {
 }
 
 #sidebar-module {
-  border-top: solid #ddd;
+  border-top: dotted #ddd;
 }
 
 #sidebar-module .navlinks {
