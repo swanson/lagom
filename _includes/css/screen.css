@@ -156,6 +156,10 @@ nav h1, nav h2 {
   font-weight: 600;
 }
 
+#sidebar-module {
+  border-top: #ddd;
+}
+
 .content {
   font: 400 16px/22px "open sans", sans-serif;
   border-left: 1px solid #DDD;
