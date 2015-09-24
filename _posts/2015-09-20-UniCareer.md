@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UniCareer Campus Talk"
-date: 2015-09-20 14:00 PM
+date: 2015-09-20 14:00:00
 Location: "Huntsman Hall 245"
 categories: event
 ---
