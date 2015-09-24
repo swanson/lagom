@@ -9,6 +9,7 @@
 {% capture eventtime %}{{ event.date | date: '%s'}}{% endcapture %}
 {% if eventtime > nowunix %}
 	<li style="list-style-type:none">
+		34
 		{% assign d = event.date | date: "%-d" %}
 		{% assign m = event.date | date: "%B" %}
 
