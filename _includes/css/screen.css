@@ -165,6 +165,7 @@ nav h1, nav h2 {
 #sidebar-module .navlinks {
   list-style-type:none;
   padding-left: 20px;
+  padding-top: 1px;
   font-size:16pt;
 }
 
