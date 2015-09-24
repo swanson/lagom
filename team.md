@@ -5,7 +5,7 @@ nav: main
 permalink: /team/
 ---
 <div class="sidebar-module">
-	<h4><a href="/team">Team</a></h4>
+	<h1 class="page-heading">Our Team</h1>
   <ul>
 	  <!-- for loop goes in filename order: order people using date in filename -->
   {% for person in site.categories.team %}
@@ -15,7 +15,7 @@ permalink: /team/
     <script type="text/javascript">
       document.write('<a href="mailto:' + '{{person.email-user}}' + '@' + '{{person.email-host}}' + '">')
     </script>
-	{{person.firstname}} {{person.lastname}}</a>
+	{{person.firstname}} {{person.lastname}} </a>
   {% endfor %}
   </ul>
 </div>
