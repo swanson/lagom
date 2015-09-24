@@ -2,7 +2,7 @@
 layout: default
 title: Team
 nav: main
-permalink: /events/
+permalink: /team/
 ---
 <div class="sidebar-module">
 	<h4><a href="/team">Team</a></h4>
