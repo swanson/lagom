@@ -233,9 +233,6 @@ nav h1, nav h2 {
   color: {{ site.data.theme.highlight_color }};
 }
 
-#banner {
-  width: 500px;
-}
 
 i.fa-hn {
   font-family: "open sans", sans-serif;

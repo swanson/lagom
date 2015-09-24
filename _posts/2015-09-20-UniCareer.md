@@ -5,7 +5,6 @@ date: 2015-09-20 14:00:00
 Location: "Huntsman Hall 245"
 categories: event
 ---
-<img id="banner" src="{{ site.url }}/assets/unicareer.png" alt="banner"/>
 Confused about your career options? Unsure if entrepreneurship or finance is the right path for you? Or perhaps you'd just like to learn how to take fullest advantage of your Ivy League education? Join WCA, PACE, and UniCareer, as we invite four successful businesspeople from the finance industry to speak about their experiences in the finance industry and in other contexts! 
 
 Note that the event will be held mainly in Chinese, and that the dress code is business casual. 

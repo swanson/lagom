@@ -5,7 +5,6 @@ date: 2015-09-24 18:00:00
 Location: "Huntsman Hall G60"
 categories: event
 ---
-![banner]({{ site.url }}/assets/dropout-entrepreneurs.jpg)
 Hear about the experiences of some of the nation's top entrepreneurs. They will be sharing the stories of their time working full-time rather than attending classes and what to expect from being a young entrepreneur. After each talks about their individual paths there will be a panel discussion about the entrepreneurial journey.
 
 Keynote:
