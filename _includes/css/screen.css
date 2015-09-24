@@ -116,6 +116,8 @@ nav h1, nav h2 {
 }
 
 #social {
+  border-top: solid $ddd;
+  border-width: 1px 0;
   margin-bottom: 10px;
   font-size: 13px;
 }
