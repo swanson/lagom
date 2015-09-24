@@ -8,17 +8,13 @@
   </a>
   <h2>{{ site.data.theme.name }}</h2>
 
-  <div id="pages">
+  <div id="sidebar-module">
   {% include pages.html %}
-  </div>
-
-  <div id="events">
-    {% include events.html %}
-  </div>
-
-  <div id="team">
+  {% include events.html %}
   {% include team.html %}
   </div>
+
+    
 
   <div id="social">
     {% include social.html %}
