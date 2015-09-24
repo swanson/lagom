@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dropout Entrepreneurs - College vs Company"
-date: 2015-09-24 20:00:00
+date: 2015-09-24 18:00:00
 Location: "Huntsman Hall G60"
 categories: event
 ---
