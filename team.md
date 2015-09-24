@@ -1,3 +1,9 @@
+---
+layout: default
+title: Team
+nav: main
+permalink: /events/
+---
 <div class="sidebar-module">
 	<h4><a href="/team">Team</a></h4>
   <ul>
@@ -13,4 +19,3 @@
   {% endfor %}
   </ul>
 </div>
-
