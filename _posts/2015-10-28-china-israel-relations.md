@@ -11,4 +11,5 @@ Join TAMID, WCBS, and PACE as we invite Sam Chester from Clarity Capital to talk
 Sam Chester is an Analyst at Clarity Capital, a global investment firm with offices in New York and Tel Aviv. He is an expert in relations between China and the Middle East, drawing from a decade of in-depth academic and professional experience that includes fieldwork in China and throughout the Middle East. 
 
 Location: Huntsman Hall 265
+
 Time: 7:00-8:00 PM
