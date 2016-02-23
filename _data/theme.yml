@@ -22,6 +22,7 @@ social:
 name: Matt Swanson
 email: test@example.com
 tagline: "weak opinions, strongly held"
+discus: 
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-xxxx-x
