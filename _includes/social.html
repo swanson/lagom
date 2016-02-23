@@ -1,5 +1,11 @@
 Follow me:
 <div id="stalker">
+  {% if site.data.theme.email %}
+  <a title="{{ site.data.theme.email }}" href="mailto:{{ site.data.theme.email }}">
+    <i class="fa fa-envelope-square"></i>
+  </a>
+  {% endif %}
+
   {% if site.data.theme.social.github %}
   <a title="{{ site.data.theme.social.github }} on Github" href="https://github.com/{{ site.data.theme.social.github }}">
     <i class="fa fa-github-square"></i>
