@@ -1,5 +1,11 @@
 # General Jekyll Config
-highlighter: pygments
 url: http://example.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+highlighter: rouge
+markdown: kramdown
+
+gems:
+  - jemoji            # this is a support for emoticons
+  - jekyll-mentions   # this is a support for GitHub user's mentions by adding 
