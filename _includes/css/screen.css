@@ -62,9 +62,19 @@ a:visited {
 }
 
 table {
-  font-size: inherit;
-  font: 100%;
+    font-size: inherit;
+    font: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
 
 img {
   display: block;
