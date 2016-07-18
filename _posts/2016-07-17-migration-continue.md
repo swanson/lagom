@@ -61,7 +61,7 @@ Au début c'est assez facile a coup de rebase/merge, et puis en fonction de la f
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Please kill me.... <a href="http://t.co/EvjbdAAeQe">pic.twitter.com/EvjbdAAeQe</a></p>&mdash; Tristan Bessoussa (@sf_tristanb) <a href="https://twitter.com/sf_tristanb/status/565523044404580352">11 février 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-(Pour vous, développeurs à tendance SM qui souhaite quand même s'engager dans cette voie, vous pouvez aussi essayer : [Git rerere](http://www.git-attitude.fr/2014/11/04/git-rerere/)
+(Pour les devs à tendance SM qui souhaite quand même s'engager dans cette voie, vous pouvez aussi essayer : [Git rerere](http://www.git-attitude.fr/2014/11/04/git-rerere/))
 
 Et puis, ce gouffre de changement structurel (changement de namespace, réorganisation du code), ne permettait plus de faire une opération de rebase/merge depuis la branche de la v1.
 Quelques mois plus tard, cette branche à définitivement rompu avec master. </3
