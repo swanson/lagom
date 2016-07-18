@@ -23,7 +23,7 @@ _Cliquez pour une version dépliée de l'architecture_
 
 [![Architecture yprox v2 version simplifiée](/assets/images/yprox_architecture_v2.png)](https://www.evernote.com/l/ARGX1eBvtjFLCKMrVYdtkgAmmnsbCa8ow_Q)
 
-Je tiens à préciser qu'il s'agit d'une migration, le code/logique n'a pas été ré-écrit "from scratch" puisque le coeur à bénéficié d'une **base solide**.
+Je tiens à préciser qu'il s'agit d'une migration, le code/logique n'a pas été réécrit "from scratch" puisque le coeur à bénéficié d'une **base solide**.
 
 Cepandant, beaucoup de modules ont bénéficiés de gros refactoring et d'une restructuration profonde.
 Au final, voilà le tableau comparatif avant/après du nombre de lignes de code (acronyme LOC), tel que rapporté par l'utilitaire Cloc.
@@ -64,11 +64,11 @@ Certes, c'est un template d'admin qui a été acheté sur un site de template, m
 Bien qu'ayant frenné certains besoins des utilisateurs, au court de cette migration plus de **20 nouvelles fonctionnalités** ont vu le jour:
 
 - De nouveaux modules métiers
-- Des ré-écritures de modules en Vue.js avec des nouvelles features.
+- Des réécritures de modules en Vue.js avec des nouvelles fonctionnalités.
 - Une API Rest consommée par des partenaires
 - Le support d'HTTP2 pour le backoffice
 
-Attention cepandant, le fait de continuer a faire évoluer le produit pendant une migration, à un coût conséquent sur le temps de migration. Il aura fallu tenir un rythme parfois soutenu pendant 2 ans (début 05/2014) avec environ 3 à 4 (selon périodes) ressource a temps plein (il a aussi fallu maintenir l'existant. A lire dans la partie II) 
+Attention cepandant, le fait de continuer a faire évoluer le produit pendant une migration, à un coût conséquent sur le temps de migration. Il aura fallu tenir un rythme parfois soutenu pendant 2 ans (début 05/2014) avec environ 3 à 4 (selon périodes) ressources à temps plein (il a aussi fallu maintenir l'existant. A lire dans la partie II) 
 
 ## La résistence des utilisateurs: attention à la contamination.
 
