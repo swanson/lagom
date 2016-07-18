@@ -68,7 +68,7 @@ Bien qu'ayant frenné certains besoins des utilisateurs, au court de cette migra
 - Une API Rest consommée par des partenaires
 - Le support d'HTTP2 pour le backoffice
 
-Attention cepandant, le fait de continuer a faire évoluer le produit pendant une migration, à un coût conséquent sur le temps de migration. Il aura fallu tenir un rythme parfois soutenu pendant 2 ans (début 05/2014) avec environ 3 à 4 (selon périodes) ressources à temps plein (il a aussi fallu maintenir l'existant. A lire dans la partie II) 
+Attention, le fait de continuer a faire évoluer le produit pendant une migration (+bugfixs), à un **coût conséquent sur le temps de migration**. Il aura fallu tenir un rythme parfois soutenu pendant 2 ans (début 05/2014) avec environ 3 à 4 (selon périodes) ressources à temps plein.
 
 ## La résistence des utilisateurs: attention à la contamination.
 
