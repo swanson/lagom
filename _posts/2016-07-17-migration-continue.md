@@ -16,8 +16,9 @@ On peut lire de à certains endroits qu'[une refonte c'est le mal](http://www.jo
 # La migration continue, pourquoi et comment
 
 Le but de la migration continue est de mettre à disposition une nouvelle version de son application tout en gardant l'existante disponible, s'assurant une transition continue d'une version X vers une version Y.
-Cela permet de réduire les risques de la migration, au lieu du gros bouton de "bascule" de la version Y vers la version X, on active la migration pour des fonctionnalité précises, laissant plus de place à l'amélioration basé sur le feedback des utilisateurs.
-De plus, cela envoie des signaux rassurant à votre hierarchie: l'avancement de la migration est visible en "temps réel" (opposé au fait que votre hierarchie doive attendre 2 ans dans mon cas avant de voir "tourner" le produit en prod).
+
+Cela permet de réduire les risques de la migration; au lieu du gros bouton de "bascule" de la version Y vers la version X, on active la migration pour des fonctionnalité précises, laissant plus de place à l'amélioration basé sur le feedback des utilisateurs.
+De plus, cela envoie des signaux rassurant à votre hierarchie: l'avancement de la migration est visible en "temps réel" (opposé au fait qu'on doive attendre 2 ans dans mon cas avant de voir "tourner" le produit en prod).
 
 Sur le sujet je vous conseille l'excellente présentation de François Zaninotto sur la [Migration continue d'une application Symfony2](https://www.youtube.com/watch?v=CvPD9iG0w-E)
 
