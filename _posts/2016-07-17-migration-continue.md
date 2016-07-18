@@ -5,11 +5,9 @@ categories:
 - blog
 ---
 
-Lorsque j'ai rejoins Y-Proximité en tant que lead développeur, j'ai ressenti le besoin de lancer un processus de migration de notre application "CMS" orienté réseau, multi-tenant & white-labelled. Il héberge aujourd'hui près de 2,000 sites ou landing page.
+Lorsque j'ai rejoins Y-Proximité en tant que lead développeur, j'ai ressenti après avoir collecté de nombreux signaux décrit dans cette suite de billets, le besoin de lancer un processus de migration de notre application "CMS" orienté réseau, multi-tenant (1BDD = X clients) & marque blanche. Il héberge aujourd'hui environ 2,000 sites/landing page.
 
-On peut lire de à certains endroits qu'[une refonte c'est le mal](http://www.joelonsoftware.com/articles/fog0000000069.html). J'ai décidé de raconter comment notre migration continue (moins abbrasive qu'une refonte) qui s'est déroulée sur 2 ans s'est passée. Voilà mon cahier de route de la migration vers "Yprox v2" qui couvre plusieurs sujets.
-
-Voici un cahier de route de la migration vers "Yprox v2" qui couvre plusieurs sujets.
+On peut lire de à certains endroits qu'[une refonte c'est le mal](http://www.joelonsoftware.com/articles/fog0000000069.html). J'ai décidé de raconter comment s'est passé notre migration (moins abbrasive sur le plan politique qu'une refonte) qui s'est déroulée sur 2 ans. Voici mon cahier de route de la migration vers "Yprox v2" qui couvre plusieurs sujets.
 
 * I. [Migration: Les raisons]({% post_url 2016-07-16-les-raisons-dune-migration %})
 * II. Migration: Le processus de migration continue
@@ -17,11 +15,14 @@ Voici un cahier de route de la migration vers "Yprox v2" qui couvre plusieurs su
 
 # La migration continue, pourquoi et comment
 
-Le but de la migration continue est de mettre à disposition le code dès qu'il est prêt, s'assurant une transition continue d'une version X vers une version Y.
+Le but de la migration continue est de mettre à disposition une nouvelle version de son application tout en gardant l'existante disponible, s'assurant une transition continue d'une version X vers une version Y.
+Cela permet de réduire les risques de la migration, au lieu du gros bouton de "bascule" de la version Y vers la version X, on active la migration pour des fonctionnalité précises, laissant plus de place à l'amélioration basé sur le feedback des utilisateurs.
+De plus, cela envoie des signaux rassurant à votre hierarchie: l'avancement de la migration est visible en "temps réel" (opposé au fait que votre hierarchie doive attendre 2 ans dans mon cas avant de voir "tourner" le produit en prod).
+
 Sur le sujet je vous conseille l'excellente présentation de François Zaninotto sur la [Migration continue d'une application Symfony2](https://www.youtube.com/watch?v=CvPD9iG0w-E)
 
-Dans notre cas, nous avons mis en place une migration continue **partielle**. Seuls nos utilisateurs internes ont bénéficiés de cette migration continue. Elle n'a touché que le backoffice de notre application. La partie frontoffice est le fameux "bouton rouge" de mise en prod finale.
-Le but était de migrer continuellement tout ce qui était possible (comprennez ratio avantage/temps).
+Dans notre cas, nous avons mis en place une migration continue **partielle**. Seuls nos utilisateurs internes ont bénéficié de cette migration continue. Elle n'a touché que le backoffice de notre application. La partie frontoffice est le fameux "bouton rouge" de mise en prod finale.
+Le but était de migrer continuellement tout ce qui était possible (comprennez par "possible" le ratio avantage/temps).
 
 ## L'organisation des branches & de la production
 
