@@ -83,6 +83,6 @@ Un rôle de Product Owner nous à fait défaut pour collecter les retours utilis
 et les axes d'améliorations de l'outil que vous êtes en train de faire évoluer.
  
 ## Conclusion
-Ne vous engagez dans ce genre de migration que lorsque vous avez un soutien de l'opérationnel et de l'équipe en place. Sinon vous allez vous heurtez à des murs qui seront fatal pour un travail de longue haleine.
+Ne vous engagez dans ce genre de migration que lorsque vous avez un soutien de l'opérationnel et de l'équipe en place. Sinon vous allez vous heurtez à des murs qui risquent d'être fatal pour un travail de longue haleine.
 
 NB: Il s'agit d'un Bilan anticipé rendu possible grace à cette migration continue. A l'heure ou j'écris ces lignes, nous sommes en cours de validation dans un environnement final ou tout à été migré (front et back)
