@@ -66,10 +66,11 @@ Au début c'est assez facile a coup de rebase/merge, et puis en fonction de la f
 Et puis, ce gouffre de changement structurel (changement de namespace, réorganisation du code), ne permettait plus de faire une opération de rebase/merge depuis la branche de la v1.
 Quelques mois plus tard, cette branche à définitivement rompu avec master. </3
 
-Avec du recul, le point _"pain in the ass"_, c'est que dès que vous corrigez un bug sur v1, vous devez savoir si ça impacte v2, et patcher les méthodes qui n'ont parfois en commun entre les versions, que leur objectif métier.
+Avec du recul, le point _"pain in the ass"_, c'est que dès que vous corrigez un bug sur v1, vous devez savoir si ça impacte v2, et patcher les méthodes qui n'ont parfois en commun entre les versions, que leurs objectifs métier.
 
 ## Déploiement continu
 
-La branche `develop-2` à bénéficié d'un processus de déploiement continu (Travis qui va lancer un playbook Ansible au travers d'un serveur Tower). Nous sommes montés jusq'à **32 déploiements par jour** (Amazon n'à qu'à bien se tenir...)
+Chaque pull request était testable dans un environnement dédié grace au [Pull Request Builder]({% post_url 2015-04-12-le-pull-request-builder %}).
+La branche `develop-2` à bénéficié d'un processus de déploiement continu (Travis lance un playbook Ansible de déploiement applicatif au travers d'un serveur Tower). Nous sommes montés en pointe jusq'à **32 déploiements par jour** (Amazon n'à qu'à bien se tenir...)
 
 Lire la suite : III. [Migration: Le bilan]({% post_url 2016-07-18-migration-couts-et-gains %})
