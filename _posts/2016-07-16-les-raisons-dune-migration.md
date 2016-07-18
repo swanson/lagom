@@ -5,7 +5,7 @@ categories:
 - blog
 ---
 
-Lorsque j'ai rejoins Y-Proximité en tant que lead développeur, j'ai ressenti après avoir collecté de nombreux signaux décrit dans cette suite de billets, le besoin de lancer un processus de migration de notre application "CMS" orienté réseau, multi-tenant (1BDD = X clients) & marque blanche. Il héberge aujourd'hui environ 2,000 sites/landing page.
+Lorsque j'ai rejoins Y-Proximité, j'ai ressenti après avoir collecté de nombreux signaux décrit dans cette suite de billets, le besoin de lancer un processus de migration de notre application "CMS" orienté réseau, multi-tenant (1BDD = X clients) & marque blanche. Il héberge aujourd'hui environ 2,000 sites/landing page.
 
 On peut lire de à certains endroits qu'[une refonte c'est le mal](http://www.joelonsoftware.com/articles/fog0000000069.html). J'ai décidé de raconter comment s'est passé notre migration (moins abbrasive sur le plan politique qu'une refonte) qui s'est déroulée sur 2 ans. Voici mon cahier de route de la migration vers "Yprox v2" qui couvre plusieurs sujets.
 
