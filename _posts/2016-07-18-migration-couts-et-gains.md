@@ -38,30 +38,30 @@ Au final, voilà le tableau comparatif avant/après du nombre de lignes de code 
 Cela s'explique par:
 
 * Passage des librairies JS avec NPM, et publication avec Gulp
-* Réfactorisation des modules
+* Réfactorisation des modules métier en PHP
 * Suppression de code mort
-* Supression de fonctionnalités très couteuse à maintenir par rapport à son utilisation (module e-commerce "maison")
+* Supression de fonctionnalités très couteuses à maintenir par rapport à son utilisation (ex: module e-commerce "maison")
 
-Certaines tâches métiers ont étés déportés dans d'autres repository. Nous avons pour certaines tâches un système de Queue et de Worker (en Silex qui tourne avec du Docker) chez Iron.io qui viennent performer certaines tâches en dehors de notre infrastructure. 
+Certaines tâches métiers ont étés déportés dans d'autres repository. Nous avons pour certaines tâches un système de "queue" et de "worker" (en Silex qui tourne avec du Docker) chez Iron.io qui viennent performer certaines tâches en dehors de notre infrastructure. 
 
 ![architecture globale v2](/assets/images/yprox-architecture-globale.png)
 
 ## Tests fonctionnels et unitaire
 
-Nous avons augmentés le taux de couverture des tests **unitaires**, **de classe** et **fonctionnels**. Afin de nous épauler, Travis a été boosté pour obtenir 5 build parallèles.
-Entre nous, on ne va pas se mentir, sortir des taux de couverutre, c'est bidon si les tests sont mals pensés. 
+Nous avons augmentés le taux de couverture des tests **unitaires**, **de classe** (60 specs, 368 exemples PHPSpec) et **fonctionnels** (449 scénarios Behat). Afin de nous épauler, Travis a été boosté pour obtenir 5 build parallèles.
+Entre nous, sortir des taux de couverutre, c'est bidon si les tests sont mals conçus, mais ça permet d'avoir une base afin de se "rassurer". Nous sommes quand même loin de ce que peux faire [Sylius](https://github.com/Sylius/Sylius) côté tests.  
 
 ## Un design plus "dans l'ère du temps"
 
-_Cliquez pour une version aggrandie_
+_Cliquez pour pouvoir agrandir_
 [![Screenshot yproximite v2](/assets/images/yprox_bo_dashboard_v2.png)](https://www.evernote.com/l/ARGMA336ksxKfJn0dV8X6XpsHU3MA3mqks4)
 [![Screenshot yproximite v2 - Listing](/assets/images/yprox_bo_list_v2.png)](https://www.evernote.com/l/ARGJLToKexxKN7jjsZmNnxEHzZwZy7d2-mQ)
 
-Certes, c'est un template d'admin qui a été acheté sur un site de template, mais il fait le travail. Notre équipe d'intégration et de graphistes, très occupés (eux aussi) n'ont presque pas été sollicités, parfois à notre grand desespoir.
+Certes, c'est un template d'admin qui a été acheté sur un site de template, mais il fait le travail. Notre graphiste & équipe d'intégration, très occupés (eux aussi) n'ont presque pas été sollicités, parfois à regret.
 
 ## Migration = période de jachère ? Pas forcémment.
 
-Bien qu'ayant frenné certains besoins des utilisateurs, au court de cette migration plus de **20 nouvelles fonctionnalités** ont vu le jour:
+Bien qu'ayant freiné certains besoins des utilisateurs internes, au court de cette migration plus de **20 nouvelles fonctionnalités** ont vu le jour:
 
 - De nouveaux modules métiers
 - Des réécritures de modules en Vue.js avec des nouvelles fonctionnalités.
