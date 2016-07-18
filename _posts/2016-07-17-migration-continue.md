@@ -33,7 +33,9 @@ Nous avons donc mis en place 2 URL différentes pour acceder en temps réel aux 
 ## Statégies de migrations
 
 Le développeur chargé de la migration était libre du moyen employé pour la migration. 
-Je préconise cepandant le fait de supprimer toute allusion au code de l'ancienne version sur la branche de la nouvelle version. Cette opération _évite_ que les devs copy/paste/move le code sans le lire/comprendre (et donc passer à côté d'une opportunité de le réfactoriser). Le mot d'ordre était alors "s'en inspirer, le refactorer, et à défaut, le reprendre tel quel".
+Je préconise cepandant le fait de supprimer toute allusion au code de l'ancienne version sur la branche de la nouvelle version. Cette opération _évite_ que les devs copy/paste/move le code sans le lire/comprendre (et donc passer à côté d'une opportunité de le réfactoriser). 
+
+Le mantra était alors de "s'en inspirer, le refactorer, et à défaut, le reprendre tel quel".
 
 Cette suppression du code legacy, dans notre équipe, à eu lieu presque 1 an après le début de la migration afin de nous laisser le temps de reposer la base architecturelle afin d'assurer un fonctionnement minimum sur la v2.
 
