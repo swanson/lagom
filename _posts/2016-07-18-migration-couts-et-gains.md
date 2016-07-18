@@ -54,8 +54,8 @@ Entre nous, on ne va pas se mentir, sortir des taux de couverutre, c'est bidon s
 ## Un design plus "dans l'ère du temps"
 
 _Cliquez pour une version aggrandie_
-[![Screenshot yproximite v2](/assets/images/yprox_bo_dashboard_v2.png)](https://www.evernote.com/shard/s273/sh/8c037dfa-92cc-4a7c-99f4-755f17e97a6c/1d4dcc0379aa92ce/res/32b9bd57-66c7-4089-bf96-47c8fdb13a2f/skitch.png)
-[![Screenshot yproximite v2 - Listing](/assets/images/yprox_bo_list_v2.png)](https://www.evernote.com/shard/s273/sh/892d3a0a-7b1c-4a37-b8e3-b1998d9f1107/cd9c19cbb776fa64/res/f1c5b924-3edd-4f16-be7e-de9e92908304/skitch.png)
+[![Screenshot yproximite v2](/assets/images/yprox_bo_dashboard_v2.png)](https://www.evernote.com/l/ARGMA336ksxKfJn0dV8X6XpsHU3MA3mqks4)
+[![Screenshot yproximite v2 - Listing](/assets/images/yprox_bo_list_v2.png)](https://www.evernote.com/l/ARGJLToKexxKN7jjsZmNnxEHzZwZy7d2-mQ)
 
 Certes, c'est un template d'admin qui a été acheté sur un site de template, mais il fait le travail. Notre équipe d'intégration et de graphistes, très occupés (eux aussi) n'ont presque pas été sollicités, parfois à notre grand desespoir.
 
