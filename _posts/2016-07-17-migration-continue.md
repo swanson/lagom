@@ -71,6 +71,7 @@ Avec du recul, le point _"pain in the ass"_, c'est que dès que vous corrigez un
 ## Déploiement continu
 
 Chaque pull request était testable dans un environnement dédié grace au [Pull Request Builder]({% post_url 2015-04-12-le-pull-request-builder %}).
+
 La branche `develop-2` à bénéficié d'un processus de déploiement continu (Travis lance un playbook Ansible de déploiement applicatif au travers d'un serveur Tower). Nous sommes montés en pointe jusq'à **32 déploiements par jour** (Amazon n'à qu'à bien se tenir...)
 
 Lire la suite : III. [Migration: Le bilan]({% post_url 2016-07-18-migration-couts-et-gains %})
