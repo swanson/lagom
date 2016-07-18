@@ -48,8 +48,10 @@ Certaines tâches métiers ont étés déportés dans d'autres repository. Nous 
 
 ## Tests fonctionnels et unitaire
 
-Nous avons augmentés le taux de couverture des tests **unitaires**, **de classe** (60 specs, 368 exemples PHPSpec) et **fonctionnels** (449 scénarios Behat). Afin de nous épauler, Travis a été boosté pour obtenir 5 build parallèles.
+Nous avons augmenté le taux de couverture des tests **unitaires**, **de classe** (60 specs, 368 exemples PHPSpec) et **fonctionnels** (449 scénarios Behat).
+
 Entre nous, sortir des taux de couverutre, c'est bidon si les tests sont mals conçus, mais ça permet d'avoir une base afin de se "rassurer". Nous sommes quand même loin de ce que peux faire [Sylius](https://github.com/Sylius/Sylius) côté tests.  
+Afin de nous épauler, Travis a été boosté pour obtenir 5 build parallèles.
 
 ## Un design plus "dans l'ère du temps"
 
@@ -84,3 +86,4 @@ et les axes d'améliorations de l'outil que vous êtes en train de faire évolue
 Ne vous engagez dans ce genre de migration que lorsque vous avez un soutien de l'opérationnel et de l'équipe en place. Sinon vous allez vous heurtez à des murs qui risquent d'être fatal pour un travail de longue haleine.
 
 NB: Il s'agit d'un Bilan anticipé rendu possible grace à cette migration continue. A l'heure ou j'écris ces lignes, nous sommes en cours de validation dans un environnement final ou tout à été migré (front et back)
+NB2: Je ne parle pas ici, par choix, de tout ce qui a été introduit de manière annexe (industrialisation des développements, metriques métiers).
