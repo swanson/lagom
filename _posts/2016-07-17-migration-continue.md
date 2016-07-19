@@ -52,7 +52,7 @@ La nouvelle entité responsable de ce changement de structure BDD est alors "bac
 
 ## Comment appliquer les patchs de votre ancienne version sur la nouvelle ?
 
-Au début c'est assez facile a coup de rebase/merge, et puis en fonction de la fracture, il sera de plus en plus difficile de le faire, voir impossible.
+Au début c'est assez facile a coup de rebase/merge, et puis en fonction de la fracture, il sera de plus en plus difficile de le faire.
 
 **Scénario**: Vous patchez un bug présent sur l'ancienne version et qui forcément impacte la nouvelle (puisque la branche a été crée de v1).
 
