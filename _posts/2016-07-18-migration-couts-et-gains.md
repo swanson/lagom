@@ -74,8 +74,8 @@ Attention, le fait de continuer a faire évoluer le produit pendant une migratio
 
 ## La résistence des utilisateurs: attention à la contamination.
 
-Nous avons "perdus" l'adhésion de certains utilisateurs internes en 2 ans qui se demandent "pourquoi cette migration ?", "est-elle vraiment nécessaire d'un point de vue de l'utilisateur ?"
-La résistance au changement est un sujet qui serait à traiter a part entière et qui ne le sera pas ici ;-). Il faut veiller que ces critiques/craintes audibles ne viennent pas "contaminer" votre équipe de développement sans quoi cette dernière doutera aussi de la réelle utilité de leur travail. Trouvez des early-adopters qui ne verront pas ce changement comme "imposé" et "inutile".
+Nous avons "perdu" l'adhésion de certains utilisateurs internes en 2 ans qui se demandent "pourquoi cette migration ?", "est-elle vraiment nécessaire d'un point de vue de l'utilisateur ?".
+La résistance au changement est un sujet qui serait à traiter a part entière et qui ne le sera pas ici ;-). Il faut veiller que ces critiques/craintes audibles ne viennent pas se répandre votre équipe de développement sans quoi cette dernière doutera aussi de la réelle utilité de leur travail. Trouvez des early-adopters qui ne verront pas ce changement comme "imposé" et "inutile".
 
 Bien que des workshop fûrent organisés, un travail d'accompagnement et de pédagogie **aurait du être entrepris avec une plus grande ferveur** avec nos utilisateurs internes afin d'être transparent sur l'avancée de la migration (difficile à estimer du fait du maintien de l'existant et d'ajout des nouvelles fonctionnalités).
 
@@ -86,5 +86,6 @@ et les axes d'améliorations de l'outil que vous êtes en train de faire évolue
 Ne vous engagez dans ce genre de migration lourde (130,000 lignes de code PHP) que lorsque vous avez un soutien de l'opérationnel et de l'équipe en place. Sinon vous allez vous heurter à des murs qui risquent d'être fatal pour mener à bien un travail d'aussi longue haleine.
 
 NB: Il s'agit d'un Bilan anticipé rendu possible grace à cette migration continue. A l'heure ou j'écris ces lignes, nous sommes en cours de validation dans un environnement final ou tout à été migré (front et back).
+
 NB2: Je ne parle pas ici, par choix, de tout ce qui a été introduit de manière annexe (industrialisation des développements, métriques métiers).
 
