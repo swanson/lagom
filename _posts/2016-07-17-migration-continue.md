@@ -27,7 +27,7 @@ Le but était de migrer continuellement tout ce qui était possible (comprennez 
 
 ## L'organisation des branches & de la production
 
-La première étape fût la création d'une brache _develop-2_ qui allait contenir tous les changements.
+La première étape fût la création d'une branche _develop-2_ qui allait contenir tous les changements.
 Nous avons donc mis en place 2 URL différentes pour acceder en temps réel aux 2 backoffice. **La base de données est partagée entre ces 2 versions**.
 
 ## Statégies de migrations
