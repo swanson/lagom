@@ -75,6 +75,7 @@ Bon, d'une part, faire une migration de code, ça parle pas aux utilisateur, alo
 
 _(Cliquez pour aggrandir)_
 [![Prévisualisation backoffice yprox v1](/assets/images/yprox-screenshot-admin-v1.png)](https://www.evernote.com/l/ARF6mfz3MYtL646QCLdeXi0lI5pGAkaIHAQ)
+[![Prévisualisation article backoffice yprox v1](/assets/images/yprox_bo_v1_list.png)](https://www.evernote.com/l/ARHnVWNmttBKg6c7IYGYrI3msig9e0WwwpU)
 
 
 En résumé nous pouvons dire que le choix d'une migration se fait de manière subjective et forcément couplé à un contexte particulier (équipe en place, compétences, dette technique, qualité de code, attentes...)
