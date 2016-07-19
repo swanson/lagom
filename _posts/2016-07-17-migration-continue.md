@@ -48,7 +48,7 @@ Le module X est accessible sur v1 et sur v2 car les changement sont compatibles 
 2/ Statégie de **remplacement**
 
 Le module X est migré sur v2, il contient des changements incompatibles avec la version existante (appellés BC Breaks). Dans notre cas il s'agit souvent de la structure de la base de données.
-La nouvelle entité responsable de ce changement de structure BDD est alors "backportée" sur v1 (souvenez-vous la BDD est partagées entre les 2 versions). La migration SQL est jouée en prod et le module X n'est plus accessible sur v1
+La nouvelle entité responsable de ce changement de structure BDD est alors "backportée" sur v1 (souvenez-vous la BDD est partagées entre les 2 versions). La migration SQL est jouée en prod et le module X n'est plus accessible sur v1 et redirige sur v2.
 
 ## Comment appliquer les patchs de votre ancienne version sur la nouvelle ?
 
