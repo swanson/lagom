@@ -62,14 +62,28 @@ a:visited {
 }
 
 table {
-  font-size: inherit;
-  font: 100%;
+    font-size: inherit;
+    font: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#f5f5f5}
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.emoji {
+    display: inline;
 }
 
 ul.posts {
@@ -141,6 +155,18 @@ nav h1, nav h2 {
 
 #post pre code {
   border: none;
+}
+
+#post img {
+  max-width: 100%; 
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#post img.emoji {
+    display: inline;
 }
 
 .sidebar {

@@ -25,3 +25,7 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+{% if site.data.theme.disqus %}
+    {% include disqus.html %}
+{% endif %}
