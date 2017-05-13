@@ -116,6 +116,8 @@ nav h1, nav h2 {
 }
 
 #social {
+  border-top: solid $ddd;
+  border-width: 1px 0;
   margin-bottom: 10px;
   font-size: 13px;
 }
@@ -154,6 +156,20 @@ nav h1, nav h2 {
 
 .sidebar a {
   font-weight: 600;
+}
+
+#sidebar-module{
+  padding-top: 15px;
+  border-top: solid #ddd;
+  border-width: 1px 0;
+}
+
+.sidebar-module .navlinks {
+  list-style-type:none;
+  padding-left: 20px;
+  padding-top: 1px;
+  margin: 5px;
+  font-size:14pt;
 }
 
 .content {
@@ -216,6 +232,7 @@ nav h1, nav h2 {
   text-decoration: none;
   color: {{ site.data.theme.highlight_color }};
 }
+
 
 i.fa-hn {
   font-family: "open sans", sans-serif;
