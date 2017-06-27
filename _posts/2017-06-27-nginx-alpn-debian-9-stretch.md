@@ -5,7 +5,8 @@ categories:
 - blog
 ---
 
-TLDR: With Debian 9 (stretch), ALPN negociation is finally **working out of the box** thanks to a recent version of OpenSSL used. No more manual compilation, or using backports version of openSSL !
+TLDR: With Debian 9 (stretch), ALPN negociation is finally **working out of the box** thanks to a recent version of OpenSSL used.
+
 
 ```
 OpenSSL> version
@@ -19,4 +20,4 @@ All guides on internet refers to Debian 8 (Jessie) and none of them talks about 
 
 [![Proof http2 ALPN nginx](/assets/images/http2_alpn_debian_stretch.png)](https://tools.keycdn.com/http2-test)
 
-Happy HTTP2 !
+No more manual compilation, or using backports version of openSSL ! **Happy HTTP2**.
