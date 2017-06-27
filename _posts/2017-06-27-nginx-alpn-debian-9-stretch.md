@@ -12,6 +12,7 @@ TLDR: With Debian 9 (stretch), ALPN negociation is finally **working out of the 
 OpenSSL> version
 OpenSSL 1.1.0f  25 May 2017
 
+# Nginx was installed using official repositories
 nginx -v
 nginx version: nginx/1.13.1
 ```
