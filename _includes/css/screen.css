@@ -120,6 +120,15 @@ nav h1, nav h2 {
   font-size: 13px;
 }
 
+#tags {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 13px;
+  padding-top: 15px ;
+  border-top: dotted #ddd;
+  border-width: 1px 0;
+}
+
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
