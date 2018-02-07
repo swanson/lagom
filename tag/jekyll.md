@@ -1,4 +1,0 @@
----
-layout: tag
-title: jekyll
----
