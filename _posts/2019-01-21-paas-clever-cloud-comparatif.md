@@ -6,9 +6,9 @@ categories:
 ---
 
 
-Ce billet, s'inscrit dans une série d'articles visant à faire un retour d'experience sur les différents PaaS français dans une problématique d'hébergement d'un parc de 120+ Wordpress.
+Ce billet s'inscrit dans une série d'articles visant à faire un retour d'experience sur les différents PaaS français dans une problématique d'hébergement d'un parc de 120+ Wordpress.
 
-Dans la série:
+Dans la série :
 
 {% include sommaire-paas.html %}
 
@@ -123,7 +123,7 @@ LIEN VERS METHODOLOGIE ET RESULTATS DES TESTS
 
 #### Résumé Clever Cloud (TLDR)
 
-| 👎 Inconvéniants                                              | 👍 Avantages                                                  |
+| 👎 Inconvénients                                              | 👍 Avantages                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Ratio prix/performance sur du wordpress catastrophique<br />Gestion du pricing des add-on de base de données<br />Gestion des variables d'environnements peu UX/DX <br />Pas de support de Github Server pour <br />déploiement auto <br />Interface parfois peu intuitive<br /><br />Réactivité du support sur des problématiques techniques.<br />Gestions des statistiques (en BETA)<br /><br />Pas de gestion du `pm.max_children` depuis<br /> une variable d'environnement "out of the box" | Backup automatisés<br />Intégration avec let's encrypt<br />Auto-scaling vertical et/ou horizontal<br />Support réactif sur l'aspect communication<br /><br />Interface sexy & réactive<br />Gestion des logs claires |
 

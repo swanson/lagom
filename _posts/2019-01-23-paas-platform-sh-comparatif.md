@@ -6,9 +6,9 @@ categories:
 ---
 
 
-Ce billet, s'inscrit dans une série d'articles visant à faire un retour d'experience sur les différents PaaS français dans une problématique d'hébergement d'un parc de 120+ Wordpress.
+Ce billet s'inscrit dans une série d'articles visant à faire un retour d'experience sur les différents PaaS français dans une problématique d'hébergement d'un parc de 120+ Wordpress.
 
-Dans la série:
+Dans la série :
 
 {% include sommaire-paas.html %}
 
@@ -48,7 +48,7 @@ En exemple, de Décembre à Janvier, il y à eu 10 incidents, dont certains maje
 #### Résumé Platform.sh (TLDR)
 
 
-| 👎 Inconvéniants                                              | 👍 Avantages                                                  |
+| 👎 Inconvénients                                              | 👍 Avantages                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Cher<br />Pas de scalabilité automatique <br />Interface très lente et pas sexy<br />Gestion des variables d'environnements<br />Incidents a repetitions (hors production)<br />Hook de déploiement qu'il faut <br />régulièrement supprimer et rajouter pour <br />que le projet se déploie automatiquement<br />Aucun outil de monitoring depuis l'interface pour aller créer des règles d'alertes (ex: Poster un message dans Slack si la RAM >90%)<br />On ne sait pas combien de ressource on consomme | On peux déployer des branches <br />comme environnements pour faire <br />des démo ou de la préprod facilement.<br />Encore aucun crash de la prod. |
 

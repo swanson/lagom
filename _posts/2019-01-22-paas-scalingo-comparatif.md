@@ -6,9 +6,9 @@ categories:
 ---
 
 
-Ce billet, s'inscrit dans une série d'articles visant à faire un retour d'experience sur les différents PaaS français dans une problématique d'hébergement d'un parc de 120+ Wordpress.
+Ce billet s'inscrit dans une série d'articles visant à faire un retour d'experience sur les différents PaaS français dans une problématique d'hébergement d'un parc de 120+ Wordpress.
 
-Dans la série:
+Dans la série :
 
 {% include sommaire-paas.html %}
 
